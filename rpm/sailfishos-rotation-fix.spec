@@ -1,7 +1,7 @@
 Name:       sailfishos-rotation-fix
 
 # >> macros
-BuildArch: armv7hl
+BuildArch: noarch
 # << macros
 
 Summary:    Lock orientation in LandscapeInverted
