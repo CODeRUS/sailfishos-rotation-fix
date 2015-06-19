@@ -1,0 +1,8 @@
+{
+    "name": "Lock orientation in LandscapeInverted",
+    "description": "Test patch for locking orientation in LandscapeInverted",
+    "category": "homescreen",
+    "infos": {
+        "maintainer": "coderus"
+    }
+}

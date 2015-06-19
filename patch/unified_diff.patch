@@ -1,0 +1,28 @@
+diff --git a/ApplicationWindow.qml b/ApplicationWindow.qml
+index e9eb573..02a929d 100644
+--- a/ApplicationWindow.qml
++++ b/ApplicationWindow.qml
+@@ -78,8 +78,8 @@ Window {
+     property alias dimmedRegionColor: dimmer.color
+ 
+     property bool _autoGcWhenInactive: Config.wayland
+-    property int allowedOrientations: Orientation.All
+-    property int _defaultPageOrientations: Orientation.Portrait
++    property int allowedOrientations: Orientation.LandscapeInverted
++    property int _defaultPageOrientations: Orientation.LandscapeInverted
+     property int _defaultLabelFormat: Text.AutoText
+ 
+     property bool _roundedCorners: true
+diff --git a/Page.qml b/Page.qml
+index 9476987..7b9f147 100644
+--- a/Page.qml
++++ b/Page.qml
+@@ -92,7 +92,7 @@ MouseArea {
+     property Item pageContainer
+ 
+     property int allowedOrientations: __silica_applicationwindow_instance._defaultPageOrientations
+-    property int orientation: Orientation.Portrait
++    property int orientation: Orientation.LandscapeInverted
+ 
+     property alias orientationTransitions: orientationState.transitions
+     property alias defaultOrientationTransition: orientationState.defaultTransition
