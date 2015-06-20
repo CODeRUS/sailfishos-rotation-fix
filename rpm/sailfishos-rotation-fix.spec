@@ -6,12 +6,11 @@ BuildArch: noarch
 
 Summary:    Lock orientation in LandscapeInverted
 Version:    0.0.1
-Release:    1
+Release:    2
 Group:      Qt/Qt
 License:    TODO
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   patchmanager
-Requires:   sailfishsilica-qt5 = 0.20.11.1
 
 %description
 Test patch for locking orientation in LandscapeInverted
